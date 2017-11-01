@@ -1,7 +1,7 @@
 const http = require('http')
 const shell = require('shelljs')
 const createHandler = require('github-webhook-handler')
-const handler = createHandler({ path: 'http://yifann.top/webhook', secret: 'yifanshop' })
+const handler = createHandler({ path: 'http://yifann.top:9988/webhook', secret: 'yifanshop' })
     // 上面的 secret 保持和 GitHub 后台设置的一致
 
 const port = 9988
